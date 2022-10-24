@@ -1,6 +1,6 @@
 {
   "name": "@sj-distributor/eslint-plugin-react-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint presets for react native",
   "keywords": [
     "eslint",
