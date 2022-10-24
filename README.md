@@ -31,6 +31,6 @@ Add `eslint-plugin-react-native` to the extends section of your `.eslintrc` conf
 
 ```json
 {
-  "extends": ["@sj-distributor/eslint-plugin-react-native/recommended"]
+  "extends": ["plugin:@sj-distributor/eslint-plugin-react-native/recommended"]
 }
 ```
