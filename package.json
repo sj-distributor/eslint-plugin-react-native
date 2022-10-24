@@ -1,0 +1,75 @@
+{
+  "name": "@sj-distributor/eslint-plugin-react-native",
+  "version": "0.0.0",
+  "description": "ESLint presets for react native",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "release-it",
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "mocha": "^10.0.0",
+    "release-it": "^15.5.0",
+    "requireindex": "^1.2.0",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/sj-distributor/eslint-plugin-react-native",
+  "bugs": {
+    "url": "https://github.com/sj-distributor/eslint-plugin-react-native/issues"
+  },
+  "homepage": "https://github.com/sj-distributor/eslint-plugin-react-native#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

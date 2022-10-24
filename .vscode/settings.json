@@ -1,0 +1,11 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true
+}
