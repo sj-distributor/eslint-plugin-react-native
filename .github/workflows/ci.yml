@@ -1,4 +1,4 @@
-name: Ci
+name: CI
 on: [push, pull_request]
 
 env:
