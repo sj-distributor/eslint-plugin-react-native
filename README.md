@@ -1,4 +1,4 @@
-# :rainbow: @sj-distributor/eslint-plugin-react-native
+# :👨‍💻: @sj-distributor/eslint-plugin-react-native
 
 [![Npm Version](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/@sj-distributor/eslint-plugin-react-native)
 [![MIT License](https://img.shields.io/npm/l/react-native-tab-view.svg?style=flat-square)](https://www.npmjs.com/package/@sj-distributor/eslint-plugin-react-native)
