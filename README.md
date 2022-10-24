@@ -27,10 +27,10 @@ npm install @sj-distributor/eslint-plugin-react-native --save-dev
 
 ## Usage
 
-Add `eslint-plugin-react-native` to the plugins section of your `.eslintrc` configuration file:
+Add `eslint-plugin-react-native` to the extends section of your `.eslintrc` configuration file:
 
 ```json
 {
-  "plugins": ["@sj-distributor/eslint-plugin-react-native/recommended"]
+  "extends": ["@sj-distributor/eslint-plugin-react-native/recommended"]
 }
 ```
