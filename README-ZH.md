@@ -40,4 +40,15 @@ Add `eslint-plugin-react-native` to the extends section of your `.eslintrc` conf
 }
 ```
 
-## 使用了哪些插件？
+## 使用了哪些规则？
+
+- [eslint](https://eslint.org/)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#readme)
+- [eslint-plugin-eslint-plugin](https://github.com/eslint-community/eslint-plugin-eslint-plugin#readme)
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
+- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node#readme)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier#readme)
+- [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [eslint-plugin-react-native](https://github.com/intellicode/eslint-plugin-react-native)
+- [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort#readme)
