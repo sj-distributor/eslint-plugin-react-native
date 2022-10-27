@@ -1,16 +1,4 @@
 {
-  "env": {
-    "es2022": true,
-    "browser": true,
-    "react-native/react-native": true
-  },
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": "latest",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
   "extends": [
     "eslint:recommended",
     "plugin:prettier/recommended",
@@ -25,6 +13,18 @@
     "unicorn",
     "import"
   ],
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "camelcase": "error",
     "spaced-comment": "error",
