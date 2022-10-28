@@ -1,31 +1,31 @@
-{
-  "extends": [
-    "eslint:recommended", // Find and fix problems in your JavaScript code.
+module.exports = {
+  extends: [
+    "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
+  parser: "@typescript-eslint/parser",
+  plugins: [
     "react",
     "react-native",
     "simple-import-sort",
     "unicorn",
     "import"
   ],
-  "env": {
+  env: {
     "es2022": true,
     "browser": true,
     "react-native/react-native": true
   },
-  "parserOptions": {
+  parserOptions: {
     "sourceType": "module",
     "ecmaVersion": "latest",
     "ecmaFeatures": {
       "jsx": true
     }
   },
-  "rules": {
+  rules: {
     "camelcase": "error",
     "spaced-comment": "error",
     "import/extensions": "off",
@@ -63,14 +63,15 @@
     ]
   },
   // 共享设置，会提供给每一个将被执行的规则
-  "settings": {
+  settings: {
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     },
     "react": {
-      "version": "detect" // ‘detect’ 会自动选择你所安装的 React 版本
+      // ‘detect’ 会自动选择你所安装的 React 版本
+      "version": "detect"
     }
   }
 }
