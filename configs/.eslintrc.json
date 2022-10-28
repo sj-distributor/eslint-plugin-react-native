@@ -1,6 +1,6 @@
 {
   "extends": [
-    "eslint:recommended",
+    "eslint:recommended", // Find and fix problems in your JavaScript code.
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended"
@@ -51,8 +51,18 @@
       {
         "additionalHooks": "(useMyCustomHook|useMyOtherCustomHook|useRecoilCallback)"
       }
+    ],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" }, // return 语句之前要有空行
+      {
+        "blankLine": "always",
+        "prev": ["function", "const", "var", "let"], // 指定语法糖语句之间要有空行
+        "next": "*"
+      }
     ]
   },
+  // 共享设置，会提供给每一个将被执行的规则
   "settings": {
     "import/resolver": {
       "node": {
@@ -60,7 +70,7 @@
       }
     },
     "react": {
-      "version": "detect"
+      "version": "detect" // ‘detect’ 会自动选择你所安装的 React 版本
     }
   }
 }
