@@ -21,11 +21,11 @@ module.exports = {
     },
   },
   rules: {
-    camelcase: "error", // 强制要求变量命名使用驼峰式
-    "spaced-comment": "error", // 将强制执行注释 // 或 /* 开始后的间距的一致性
-    "import/extensions": 0, // 关闭解析为模块并检查 exports 的文件扩展名列表，默认为.js 如果是React 或者使用 TypeScript 讲要去配置共享配置 settings
+    camelcase: "error", // 要求变量命名使用驼峰式
+    "spaced-comment": "error", // 要求强制执行注释 // 或 /* 开始后的间距的一致性
+    "import/extensions": 0, // .js 关闭解析为模块并检查 exports 的文件扩展名列表，如果是React 或者使用 TypeScript 将要去共享配置 settings 添加修改
     "import/no-unresolved": 0, // 关闭确保导入的模块可以解析为本地文件系统上的模块
-    "no-duplicate-imports": "error", // 每个模块只能有一个 imports，相同的内容可以在各自的 imports 上看到导入的内容
+    "no-duplicate-imports": "error", // 要求每个模块只能有一个 imports，相同的内容可以在各自的 imports 上看到导入的内容
     "react/react-in-jsx-scope": 0, // 关闭使用 jsx 时不允许缺少 React 的引入
     "simple-import-sort/imports": "error", // imports 排序
     "simple-import-sort/exports": "error", // exports 排序
