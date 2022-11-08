@@ -5,13 +5,11 @@
 [![downloads](https://img.shields.io/npm/dm/eslint-config-standard.svg)](https://www.npmjs.com/package/@sj-distributor/eslint-plugin-react-native)
 [![Ci](https://github.com/sj-distributor/eslint-plugin-react-native/actions/workflows/ci.yml/badge.svg)](https://github.com/sj-distributor/eslint-plugin-react-native/actions/workflows/ci.yml)
 
-ESLint presets for react native
+用于 react native 的 ESLint 预置
 
-### [中文文档](https://github.com/sj-distributor/eslint-plugin-react-native/blob/master/README-ZH.md)
+## 安装
 
-## Installation
-
-You'll first need to install [ESLint](https://eslint.org/):
+你首先需要安装 [ESLint](https://eslint.org/):
 
 ```sh
 yarn add eslint
@@ -21,7 +19,7 @@ or
 npm i eslint --save-dev
 ```
 
-Next, install `@sj-distributor/eslint-plugin-react-native`:
+接下来，安装 `@sj-distributor/eslint-plugin-react-native`:
 
 ```sh
 
@@ -32,7 +30,7 @@ or
 npm install @sj-distributor/eslint-plugin-react-native --save-dev
 ```
 
-## Usage
+## 使用
 
 Add `eslint-plugin-react-native` to the extends section of your `.eslintrc` configuration file:
 
@@ -42,7 +40,7 @@ Add `eslint-plugin-react-native` to the extends section of your `.eslintrc` conf
 }
 ```
 
-## What rules are used?
+## 使用了哪些规则？
 
 - [eslint](https://eslint.org/)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#readme)
