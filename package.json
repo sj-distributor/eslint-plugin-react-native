@@ -11,7 +11,7 @@
   "exports": "./lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "release": "release-it",
+    "release": "release-it --no-increment",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
